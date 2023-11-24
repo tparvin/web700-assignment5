@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main {
+    
+    box-shadow: 0px 0px 10px 5px #917070;
+    padding: 10px 40px;
+    background-color: #81375c;
+    color: rgb(163, 111, 111);
+    background: linear-gradient( to right, #e0c0de, #ce7d7d);
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    color: rgb(41, 39, 39);
+    background-color: #b6559e;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+background-color: #945454 !important;
+color: white;
+}
+
+.button{
+    background: #ccbb88;
+    border: 1px solid #b27e54;
+}
+.button:hover{
+    background: #867a5328;
+    border: 1px solid #fdd1ae;
+}
+.navbar .active{
+   
+    border-bottom: 2px solid #dd9797;
+    font-family: 'Edu TAS Beginner', cursive;
+    
+}
+.navbar-brand{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+a.nav-link {
+    color: #d67a7a;
+    margin-right: 5px;
+}
+a.nav-link:hover {
+    
+    font-family: 'Edu TAS Beginner', cursive;
+    border-bottom: 2px solid #c46161;
+}
+tr:nth-child(odd) td {
+    background-color: #d1cf8e; 
+}
+main a{
+    color: #cc3434
+}
+main a:hover {
+    color: #a72c2c;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: cursive;
+}
+
+legend{
+    font-family: 'Edu TAS Beginner', cursive;
+    color: rgb(156, 130, 130);
+}
+label{
+    font-family: 'Edu TAS Beginner', cursive;
+    color: rgb(26, 21, 21);
+}
